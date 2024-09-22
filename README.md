@@ -1,0 +1,1 @@
+# plugins-order-minimum-amount-for-woocommerce
