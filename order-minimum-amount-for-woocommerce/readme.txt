@@ -1,9 +1,9 @@
 === Order Minimum/Maximum Amount Limits for WooCommerce ===
-Contributors: wpcodefactory, omardabbas, karzin, anbinder, algoritmika, kousikmukherjeeli
+Contributors: wpcodefactory, omardabbas, karzin, anbinder, kousikmukherjeeli
 Tags: woocommerce, order minimum amount, order maximum amount
 Requires at least: 6.1
 Tested up to: 6.8
-Stable tag: 4.6.7
+Stable tag: 4.7.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -359,6 +359,22 @@ Once activated, access the plugin's settings by navigating to “WooCommerce > S
 1. Frontend example â€“ Cart notice.
 
 == Changelog ==
+
+= 4.7.1 - 31/01/2026 =
+* Fix - Fix possible php warning regarding the Quantity Input.
+
+= 4.7.0 - 29/01/2026 =
+* Fix - Fixed format from `<pre>` on "Messages > Good to know".
+* Fix - Hide "add to cart" button - Prevented PHP warnings regarding `line_tax` and `line_total`.
+
+= 4.6.9 - 26/01/2026 =
+* Fix - Vulnerability issue.
+* WC tested up to: 10.4.
+
+= 4.6.8 - 15/10/2025 =
+* Updated libraries.
+* Removed Algoritmika.
+* WC tested up to: 10.2.
 
 = 4.6.7 - 14/08/2025 =
 * Fix - Fees - Taxes were not getting applied to `%fee_amount%` placeholder.
